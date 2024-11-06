@@ -28,7 +28,7 @@ const CustomTooltip = ({ payload }) => {
   // console.log(payload);
 
   return (
-    <div className="custom-recharts-tooltip">
+    <div className="custom-recharts-tooltip ">
       <p className="recharts-tooltip-label">{payload[0].payload?.month}</p>
       <ul className="recharts-tooltip-item-list">
         {payload.map((item, index) => (
@@ -53,7 +53,7 @@ const Visitors = () => {
 
   // console.log(state);
   return (
-    <div className="block-wrap">
+    <div className="block-wrap w-full">
       <HeadTitle title="Visitors's Insights" />
       <div className="line-chart w-full h-[230px]">
         <ResponsiveContainer width="100%" height="100%">
